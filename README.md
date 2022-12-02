@@ -1,16 +1,34 @@
-# flutter_skeleton
+### flutter-skeleton
 
-A new Flutter project.
+### build runner
+```shell
+flutter pub run build_runner build
+```
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### build splash screen
+```shell
+flutter pub run flutter_native_splash:create --flavor work
+flutter pub run flutter_native_splash:create --flavor live
+```
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### dependencies
+- https://pub.dev/packages/flutter_native_splash
+
+
+### useful packages
+- cached_network_image
+- flutter_local_notifications
+- url_launcher
+- shared_preferences // flutter_secure_storage
+- webview_flutter
+- fluttertoast
+- json_annotation
+- geolocator
+- share_plus
+- device_info_plus
+- crypto
+- flutter_native_splash
+- http
